@@ -1,8 +1,8 @@
-h1. This is the data for my personal blog
+## This is the data for my personal blog
 
 I've modified Scribbish to work with Jekyll. It's still a work-in-progress so please fork and contribute to the layouts if you need something not currently ported.
 
-h1. License
+## License
 
 The following directories and their contents are Copyright Ben Browning. You may not reuse anything therein without my permission:
 
