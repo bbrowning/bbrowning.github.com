@@ -8,44 +8,8 @@
     {% endif %}
     {% endcomment %}
   </h2>
-  <abbr class="published" title="{{ post.date | date: '%Y-%m-%dT%H:%M:%S+00:00' }}"><span class="date">{{ post.date | date: '%A, %B %d' }}</span></abbr>
-  <br class="clear" />
-  <div class="entry-content">
-    {% if content %}
-      {{ content }}
-    {% else %}
-      {{ post.content }}
-    {% endif %}
-    {% if post.excerpt %}
-    <div class="extended">
-      <p><a href="{{ post.url }}">Continue reading...</a></p>
-    </div>
-    {% endif %}
-  </div>
-  <ul class="meta">
-    {% if post.categories.size > 0 %}
-    <li>
-      Categories: {% for category in post.categories %} {{ category }}{% endfor %}
-    </li>
-    {% endif %}
-    {% comment %}
-    <!-- Uncomment if you implement tags -->
-    {% if post.tags.size > 0 %}
-    <li>
-      Tags: {% for tag in article.tags %}{{ tag | link_to_tag }}&nbsp;{% endfor %}
-    </li>
-    {% endif %}
-    {% endcomment %}
-    <li>
-      Meta: 
-      {% comment %}
-      <!-- Uncomment and modify if you add comments -->
-      {% if article.accept_comments || article.comments_count > 0 %}
-      {{ article | link_to_comments }}, 
-      {% endif %}
-      {% endcomment %}
-      <a href="{{ post.url }}">permalink</a>
-      {% comment %} <!-- There's currently no per-article syndication feed for Mephisto --> , syndicate {% endcomment %}
-    </li>
-  </ul>
+  {% include post_author.html %}
+  {% include post_content.html %}
+  {% include post_meta.html %}
 </div>
+
