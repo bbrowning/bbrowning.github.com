@@ -31,6 +31,6 @@ The Jekyll include tag looks for an `_includes` directory at the root source dir
 cd _includes && ln -s . _includes
 {% endhighlight %}
 
-[Take a look][github blog] at this blog's source, particularly the \_layouts and \_includes directories, if you'd like to use the Scribbish theme for your own Jekyll-based blog.
+Take a look at this blog's [source][blog source], particularly the \_layouts and \_includes directories, if you'd like to use the Scribbish theme for your own Jekyll-based blog.
 
-[github blog]: http://github.com/bbrowning/bbrowning.github.com/tree/master
+[blog source]: http://github.com/bbrowning/bbrowning.github.com/tree/master
