@@ -17,7 +17,6 @@ I've adapted the Scribbish blog theme (http://quotedprintable.com/pages/scribbis
 * css/content.css
 * css/layout.css
 * css/local.css
-* css/syntax.css (temporary, to-be-replaced with syntax.css from github)
 * images/background.gif
 * images/gravatar.gif
 * images/header_shadow.gif
