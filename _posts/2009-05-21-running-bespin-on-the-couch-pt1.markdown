@@ -1,7 +1,7 @@
 ---
 title: Running Bespin on the Couch, Part 1
-
 layout: post
+images_url: http://thinkingconcurrently.com/images
 ---
 
 Sparked by a [thread][bespin_thread] on the CouchDB Users mailing list with promises of beer and internet groupies, I've started a project to get [Bespin][] running as a CouchApp on CouchDB. The long-term goal is to allow you to create and edit CouchApps from within Bespin, which is itself a CouchApp.
@@ -25,14 +25,14 @@ Here's a few screenshots of Bespin running as a CouchApp on my local CouchDB:
 [![Editor][editor_image]][large_editor_image]
 *Editor*
 
-[index_image]: {{site_url}}/images/bespin/index_small.png
-[large_index_image]: {{site_url}}/images/bespin/index.png
-[help_image]: {{site_url}}/images/bespin/help_small.png
-[large_help_image]: {{site_url}}/images/bespin/help.png
-[dashboard_image]: {{site_url}}/images/bespin/dashboard_small.png
-[large_dashboard_image]: {{site_url}}/images/bespin/dashboard.png
-[editor_image]: {{site_url}}/images/bespin/editor_small.png
-[large_editor_image]: {{site_url}}/images/bespin/editor.png
+[index_image]: {{images_url}}/images/bespin/index_small.png
+[large_index_image]: {{images_url}}/images/bespin/index.png
+[help_image]: {{images_url}}/images/bespin/help_small.png
+[large_help_image]: {{images_url}}/images/bespin/help.png
+[dashboard_image]: {{images_url}}/images/bespin/dashboard_small.png
+[large_dashboard_image]: {{images_url}}/images/bespin/dashboard.png
+[editor_image]: {{images_url}}/images/bespin/editor_small.png
+[large_editor_image]: {{image_url}}/images/bespin/editor.png
 
 
 Over the next few days I'll be focusing on porting their filesystem implementation to CouchDB and CouchApp conventions. If you'd like to get involved, fork my [bespin\_couch][bespin_couch] project and have at it! Also, if anyone knows how I can make the GitHub repo track upstream changes from Bespin's Mercurial repo I'd like to get that setup so I'm not just working off of a snapshot.
