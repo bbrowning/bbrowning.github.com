@@ -3,3 +3,7 @@
  Add any personal changes that you'd like to make to the theme
  in this template.
  --------------------------------------------------------------*/
+
+#searchResults iframe {
+  width: 600px;
+}
