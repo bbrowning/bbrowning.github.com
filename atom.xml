@@ -1,14 +1,15 @@
 ---
 layout: nil
+site_url: http://thinkingconcurrently.com
 ---
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
  
  <title>Thinking Concurrently</title>
- <link href="http://thinkingconcurrently.com/atom.xml" rel="self"/>
- <link href="http://thinkingconcurrently.com/"/>
+ <link href="{{site_url}}/atom.xml" rel="self"/>
+ <link href="{{site_url}}/"/>
  <updated>{{ site.time | date_to_xmlschema }}</updated>
- <id>http://thinkingconcurrently.com/</id>
+ <id>{{site_url}}/</id>
  <author>
    <name>Ben Browning</name>
    <email>ben324@gmail.com</email>
@@ -17,9 +18,9 @@ layout: nil
  {% for post in site.posts %}
  <entry>
    <title>{{ post.title }}</title>
-   <link href="http://thinkingconcurrently.com{{ post.url }}"/>
+   <link href="{{site_url}}{{ post.url }}"/>
    <updated>{{ post.date | date_to_xmlschema }}</updated>
-   <id>http://thinkingconcurrently.com{{ post.id }}</id>
+   <id>{{site_url}}{{ post.id }}</id>
    <content type="html">{{ post.content | xml_escape }}</content>
  </entry>
  {% endfor %}

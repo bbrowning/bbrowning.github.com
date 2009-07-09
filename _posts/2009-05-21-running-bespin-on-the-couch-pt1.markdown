@@ -25,14 +25,14 @@ Here's a few screenshots of Bespin running as a CouchApp on my local CouchDB:
 [![Editor][editor_image]][large_editor_image]
 *Editor*
 
-[index_image]: /images/bespin/index_small.png
-[large_index_image]: /images/bespin/index.png
-[help_image]: /images/bespin/help_small.png
-[large_help_image]: /images/bespin/help.png
-[dashboard_image]: /images/bespin/dashboard_small.png
-[large_dashboard_image]: /images/bespin/dashboard.png
-[editor_image]: /images/bespin/editor_small.png
-[large_editor_image]: /images/bespin/editor.png
+[index_image]: http://thinkingconcurrently.com/images/bespin/index_small.png
+[large_index_image]: http://thinkingconcurrently.com/images/bespin/index.png
+[help_image]: http://thinkingconcurrently.com/images/bespin/help_small.png
+[large_help_image]: http://thinkingconcurrently.com/images/bespin/help.png
+[dashboard_image]: http://thinkingconcurrently.com/images/bespin/dashboard_small.png
+[large_dashboard_image]: http://thinkingconcurrently.com/images/bespin/dashboard.png
+[editor_image]: http://thinkingconcurrently.com/images/bespin/editor_small.png
+[large_editor_image]: http://thinkingconcurrently.com/images/bespin/editor.png
 
 
 Over the next few days I'll be focusing on porting their filesystem implementation to CouchDB and CouchApp conventions. If you'd like to get involved, fork my [bespin\_couch][bespin_couch] project and have at it! Also, if anyone knows how I can make the GitHub repo track upstream changes from Bespin's Mercurial repo I'd like to get that setup so I'm not just working off of a snapshot.
