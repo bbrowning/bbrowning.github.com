@@ -43,7 +43,3 @@ I haven't had time to integrate Disqus with the blog yet so for now if you have 
 
 [github_profile]: http://github.com/bbrowning
 [twitter_profile]: http://twitter.com/bbrowning
-
-*Update*
-
-I've setup a sandbox you can play with at [http://bespin.thinkingconcurrently.com](http://bespin.thinkingconcurrently.com). It's running a snapshot of upstream Bespin trunk so may have a few bugs.
