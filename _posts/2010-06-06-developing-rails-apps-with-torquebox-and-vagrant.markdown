@@ -78,7 +78,7 @@ Because it contains a full TorqueBox binary and a Java runtime, the box is 1.2GB
 
 ### Next Steps
 
-If you've made it this far, you've done the hard part. Use your favorite editor on your host machine to developer your Rails application like you always have. The only thing to remember is to run `script/generate`, `rake db:migrate`, etc from inside the Vagrant VM.
+If you've made it this far, you've done the hard part. Use your favorite editor on your host machine to develop your Rails application like you always have. The only thing to remember is to run `script/generate`, `rake db:migrate`, etc from inside the Vagrant VM. If you try to run these on the host you most likely won't have the right version of Rails or JRuby installed.
 
 Changes made to your Rails project should be visible on the next page refresh just like regular Rails development. To try this, generate a simple Posts scaffold.
 
@@ -104,3 +104,6 @@ Now re-create the VM and start it back up (will take several minutes)
     $ vagrant up
 
 Wait 15-30 seconds for TorqueBox to start up and then point your browser to <http://localhost:3000/posts> - your app is back right where we left off.
+
+
+If you have any feedback, requests, or problems with the TorqueBox box, contact me on Twitter (@bbrowning). Enjoy!
