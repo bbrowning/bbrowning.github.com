@@ -12,7 +12,7 @@ Grab it here:
 
 <http://bbrowning-boxes.s3.amazonaws.com/torquebox-1.0.0.Beta20.box?torrent> (bittorrent)
 
-<http://bbrowning-boxes.s3.amazonaws.com/torquebox.box-1.0.0.Beta20.box> (direct download)
+<http://bbrowning-boxes.s3.amazonaws.com/torquebox-1.0.0.Beta20.box> (direct download)
 
 Refer to my [previous post][] for details on getting started with TorqueBox and Vagrant.
 
