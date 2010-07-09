@@ -3,6 +3,8 @@ layout: default
 title: Thinking Concurrently
 ---
 
-{% for post in site.posts %}
+{% for post in site.posts limit:5 %}
   {% include post.html %}
 {% endfor %}
+
+<a href="archive.html">Older Posts</a>
