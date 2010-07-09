@@ -15,10 +15,12 @@
   <li>
     Meta: 
     {% comment %}
-    <!-- Uncomment and modify if you add comments -->
-    {% if article.accept_comments || article.comments_count > 0 %}
-    {{ article | link_to_comments }}, 
-    {% endif %}
+    <script>
+      var idcomments_acct = 'c0aacadded8e090de7c7d19f80ab739d';
+      var idcomments_post_id;
+      var idcomments_post_url = "http://" + window.location.host + "{{ post.url }}";
+    </script>
+    <script type="text/javascript" src="http://www.intensedebate.com/js/genericLinkWrapperV2.js"></script>
     {% endcomment %}
     <a href="{{ post.url }}">permalink</a>
     {% comment %} <!-- There's currently no per-article syndication feed for Mephisto --> , syndicate {% endcomment %}
